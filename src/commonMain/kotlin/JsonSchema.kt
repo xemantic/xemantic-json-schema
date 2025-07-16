@@ -14,14 +14,5 @@
  * limitations under the License.
  */
 
-// TODO replace with your package
-package com.xemantic.template.kotlin.multiplatform
+package com.xemantic.json.schema
 
-// TODO replace with your code
-public object Foo {
-    public const val BAR: String = "buzz"
-}
-
-public fun main() {
-    print("Hello World!")
-}

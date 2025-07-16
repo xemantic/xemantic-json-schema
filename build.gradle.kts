@@ -23,11 +23,10 @@ plugins {
 }
 
 // TODO change the group
-group = "com.xemantic.template"
+group = "com.xemantic.json"
 
-// TODO fill up the details
 xemantic {
-    description = "A template repository for Xemantic's Kotlin multiplatform projects"
+    description = "Kotlin multiplatform JSON Schema model, parser and serializer"
     inceptionYear = 2025
     license = License.APACHE
     developer(
@@ -56,7 +55,6 @@ repositories {
 
 kotlin {
 
-    // TODO remove for a non-library project
     explicitApi()
 
     compilerOptions {
@@ -84,7 +82,6 @@ kotlin {
     js {
         browser()
         nodejs()
-        // TODO remove for a non-library project
         binaries.library()
     }
 
@@ -92,13 +89,11 @@ kotlin {
         browser()
         nodejs()
         d8()
-        // TODO remove for a non-library project
         binaries.library()
     }
 
     wasmWasi {
         nodejs()
-        // TODO remove for a non-library project
         binaries.library()
     }
 
